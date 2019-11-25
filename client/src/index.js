@@ -6,7 +6,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import thunk from 'redux-redux';
 import {createStore, applyMiddleware, compose} from 'redux';
 import {Provider} from 'react-redux';
-import combineReducers from './Reducer';
+import combineReducers from './Reducers';
 
 const store = createStore(combineReducers, compose(applyMiddleware(thunk)));
 
