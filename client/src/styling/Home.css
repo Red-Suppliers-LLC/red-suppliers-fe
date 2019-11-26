@@ -46,5 +46,9 @@ background-color: red; /* Green */
   padding: 50px; 
 }
 
+.side-by-side {
+  display: flex;
+}
+
 
 
