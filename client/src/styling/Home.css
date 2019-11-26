@@ -1,0 +1,50 @@
+.body {
+    width: 100%;
+    height: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 20%;
+}
+
+h1 {
+    font-size: 50px; 
+    display: flex;
+    justify-content: center; 
+}
+
+.button {
+background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.div1 {
+  width: 70%; 
+  height: 70%;
+  font-size: 20px; 
+  line-height: 40px; 
+}
+
+
+.center {
+  display: flex; 
+  justify-content: center; 
+}
+
+.small-img {
+  width: 30%; 
+  height: 30%;
+}
+
+.spacing {
+  padding: 50px; 
+}
+
+
+
