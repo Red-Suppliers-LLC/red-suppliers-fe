@@ -1,6 +1,7 @@
 import React from "react";
 import "../styling/Home.css"
 import HomeImg from "../img/homeimg.png"; 
+import OurPartners from "./OurPartners.js"; 
 
 const Home = () => {
     
@@ -44,6 +45,11 @@ const Home = () => {
                 <p> asdlfj asdfjow as;djfo wheifasd </p>
             </div>
             </div>
+        </div>
+        {/* our partners component */}
+        <div className="spacing"> </div>
+        <div> 
+            <OurPartners />
         </div>
         </> 
     );
