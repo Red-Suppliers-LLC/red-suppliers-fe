@@ -37,14 +37,25 @@ background-color: red; /* Green */
   justify-content: center; 
 }
 
-.small-img {
-  width: 30%; 
-  height: 30%;
+.med-img {
+width: 80%;
+height: 80%;
+}
+
+.handshake-img {
+  width: 55%; 
+  height: 60%;
 }
 
 .spacing {
   padding: 50px; 
 }
+
+.side-by-side {
+  display: flex;
+  flex-direction: row-reverse
+}
+
 
 
 
