@@ -3,9 +3,9 @@
     height: 0 auto;
 }
 
-img {
-    width: 100%;
-    height: 20%;
+.home-img {
+  width: 100%;
+  height: 10%;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 }
 
 .button {
-background-color: red; /* Green */
+background-color: blue; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -54,6 +54,14 @@ height: 80%;
 .side-by-side {
   display: flex;
   flex-direction: row-reverse
+}
+
+.services1 {
+    
+}
+
+.services2 {
+ 
 }
 
 

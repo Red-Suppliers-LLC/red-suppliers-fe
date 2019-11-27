@@ -6,7 +6,7 @@ const Home = () => {
     return(
         <>
         <div className="body"> 
-        <img src="https://p0.piqsels.com/preview/4/544/846/medical-local-doctor-medicine.jpg" alt="home photo" />
+        <img className="home-img" src="http://res.publicdomainfiles.com/pdf_view/169/13996572014277.jpg" alt="home photo" />
         </div>
         <div> 
         <h1> Red Suppliers </h1>
@@ -22,28 +22,26 @@ const Home = () => {
         <h2 style={{fontSize: "30px", display: "flex", justifyContent: "center"}}> Our Services </h2>
         </div> 
         <div className="side-by-side"> 
-           <div> 
-                <div className=""> 
+           <div className="services1"> 
+                <div> 
                <img className="handshake-img" src="https://www.maxpixel.net/static/photo/1x/Hands-Welcome-Handshake-Shaking-Hands-Agreement-3091908.jpg"/> 
-               <div>    
+               <div className="center">    
                     <h3> Hand Shake </h3> 
-                </div> 
-               </div>
-               <div> 
-                <p> </p>
+                </div>
+                <div className="center">
+                    <p> ajsd lsd e sdfa asdfli </p>    
+                </div>  
                </div>
             </div> 
             <div className="spacing"> </div> 
-            <div> 
-            <div> 
+            <div className="services2">  
                <img className="med-img" src="https://2001-2009.state.gov/cms_images/030405_med_supplies.jpg" /> 
-               <div>    
+               <div className="center">    
                     <h3> Medical Supplier </h3> 
                 </div> 
-               </div>
-               <div> 
-                <p> </p>
-               </div>
+               <div className="center"> 
+                <p> asdlfj asdfjow as;djfo wheifasd </p>
+            </div>
             </div>
         </div>
         </> 
