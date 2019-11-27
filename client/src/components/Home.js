@@ -1,12 +1,13 @@
 import React from "react";
 import "../styling/Home.css"
+import HomeImg from "../img/homeimg.png"; 
 
 const Home = () => {
     
     return(
         <>
         <div className="body"> 
-        <img className="home-img" src="http://res.publicdomainfiles.com/pdf_view/169/13996572014277.jpg" alt="home photo" />
+        <img className="home-img" src={HomeImg} alt="home photo" />
         </div>
         <div> 
         <h1> Red Suppliers </h1>
