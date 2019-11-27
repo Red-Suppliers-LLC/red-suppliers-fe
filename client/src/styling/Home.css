@@ -4,8 +4,8 @@
 }
 
 .home-img {
-  width: 100%;
-  height: 10%;
+  width: auto;
+  height: 600px;
 }
 
 h1 {
@@ -37,14 +37,14 @@ background-color: blue; /* Green */
   justify-content: center; 
 }
 
-.med-img {
-width: 80%;
-height: 80%;
+.handshake-img {
+  width: 500px; 
+  height: auto; 
 }
 
-.handshake-img {
-  width: 55%; 
-  height: 60%;
+.med-img {
+  width: 500px; 
+  height: auto; 
 }
 
 .spacing {
@@ -53,11 +53,13 @@ height: 80%;
 
 .side-by-side {
   display: flex;
-  flex-direction: row-reverse
+  flex-direction: row-reverse;
+  justify-content: center; 
 }
 
 .services1 {
-    
+    display: flex; 
+    justify-content: center; 
 }
 
 .services2 {
