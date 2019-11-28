@@ -1,5 +1,5 @@
 import React from "react"
-// import logo from
+import logo from "../images/PharmacyLogo.jpg"
 
 import "./Navbar.scss"
 
