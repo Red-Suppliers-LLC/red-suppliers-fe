@@ -66,6 +66,22 @@ background-color: blue; /* Green */
  
 }
 
+.benefits {
+  width: 400px;
+  height: auto;
+  line-height: 30px; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.supplies {
+  width: 400px;
+  height: auto;
+  line-height: 30px; 
+  display: flex; 
+  justify-content: center; 
+}
+
 
 
 
