@@ -67,7 +67,7 @@ background-color: blue; /* Green */
 }
 
 .benefits {
-  width: 400px;
+  width: 500px;
   height: auto;
   line-height: 30px; 
   display: flex; 
@@ -75,7 +75,7 @@ background-color: blue; /* Green */
 }
 
 .supplies {
-  width: 400px;
+  width: 500px;
   height: auto;
   line-height: 30px; 
   display: flex; 
