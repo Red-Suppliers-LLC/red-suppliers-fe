@@ -82,6 +82,15 @@ background-color: blue; /* Green */
   justify-content: center; 
 }
 
+.services-title { 
+  font-size: 20px; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.bit-spacing {
+  margin: 20px;
+}
 
 
 

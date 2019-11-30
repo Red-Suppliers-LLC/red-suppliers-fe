@@ -26,15 +26,17 @@ const Home = () => {
         </p>
       </div>
       <div className="spacing"> </div>
+
+      <div  className="services-title"> 
+        <h2> Our Services </h2>
+        </div> 
+        <div className="bit-spacing"> </div> 
       <div className="center">
      {/* <h3> Hand Shake </h3>
         <div className="center">
         <div className="button" type="submit"> Contact US </div>
         </div>  */}
         <div className="spacing"> </div>
-        <div> 
-        <h2 style={{fontSize: "30px", display: "flex", justifyContent: "center"}}> Our Services </h2>
-        </div> 
         <div className="side-by-side"> 
            <div className="services1"> 
                 <div> 
