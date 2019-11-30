@@ -1,24 +1,36 @@
-import React from "react";
+import React from "react"
 import "../styling/Home.css"
-import HomeImg from "../img/homepageimgtwo.png"; 
-import OurPartners from "./OurPartners.js"; 
+import OurPartners from "./OurPartners.js"
+import NavBar from "./NavBar"
+import HomeImg from "../img/homepageimgtwo.png";  
+import Footer from "./Footer.js"; 
 
 const Home = () => {
-    
-    return(
-        <>
-        <div className="body"> 
-        <img className="home-img" src={HomeImg} alt="home photo" />
-        </div>
-        <div> 
+  return (
+    <>
+      <div>
+        <NavBar />
+      </div>
+      <div className="body">
+        <img className="home-img" src={HomeImg} alt="home" />
+      </div>
+      <div>
         <h1> Red Suppliers </h1>
-        </div> 
-        <div className="center"> 
-        <p className="div1"> Red Suppliers specializes in fill the needs of government organizations by delivering needed products within the medical industry. Red Suppliers focuses on dental and portable aid supplies to be delivered to the needed locations </p> 
-        </div>
+      </div>
+      <div className="center">
+        <p className="div1">
+          Red Suppliers specializes in fill the needs of government
+          organizations by delivering needed products within the medical
+          industry. Red Suppliers focuses on dental and portable aid supplies to
+          be delivered to the needed locations{" "}
+        </p>
+      </div>
+      <div className="spacing"> </div>
+      <div className="center">
+     {/* <h3> Hand Shake </h3>
         <div className="center">
         <div className="button" type="submit"> Contact US </div>
-        </div> 
+        </div>  */}
         <div className="spacing"> </div>
         <div> 
         <h2 style={{fontSize: "30px", display: "flex", justifyContent: "center"}}> Our Services </h2>
@@ -44,15 +56,21 @@ const Home = () => {
                <div className="supplies"> 
                 <p> The list of products we supply can range from Basic First Aid to even OSHA, Pets, Coast Guard, Swimming First Aids and many more. We are constantly updating our inventory to satisfy our buyers. Contact us to see how we can provide what you may need. </p>
             </div>
-            </div>
+          </div>
         </div>
-        {/* our partners component */}
         <div className="spacing"> </div>
-        <div> 
-            <OurPartners />
-        </div>
-        </> 
-    );
+      </div>
+      {/* our partners component */}
+      <div className="spacing"> </div>
+      <div>
+        <OurPartners />
+        <div className="spacing"> </div>
+        <div>
+            <Footer />     
+        </div>  
+      </div>
+    </>
+  )
 }
 
-export default Home; 
+export default Home
