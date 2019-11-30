@@ -6,7 +6,6 @@ import "../styling/About.css";
 
 const AboutUs = () => {
  
-
     return(
         <>
         <Navbar />
