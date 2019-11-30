@@ -8,6 +8,7 @@ import {createStore, applyMiddleware, compose} from 'redux';
 import {Provider} from 'react-redux';
 import combineReducers from './reducers';
 
+
 const store = createStore(combineReducers, compose(applyMiddleware(thunk)));
 
 ReactDOM.render(
