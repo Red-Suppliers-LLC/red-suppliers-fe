@@ -1,0 +1,28 @@
+ .body-one {
+    width: 600px;
+    height: auto; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin-left: 50px; 
+    /* margin-top: -400px;  */
+    border-radius: 10px;
+    box-shadow: 8px 8px 6px -6px lightgray;
+    display: flex;
+    flex-direction: column;
+    line-height: 33px;
+  }
+
+  .title {
+    display: flex; 
+     justify-content: center; 
+   }
+
+   .center-gitIcon {
+    display: flex; 
+    justify-content: center;
+    justify-content: space-evenly; 
+  } 
+
+  .spacing {
+    padding: 50px; 
+  }

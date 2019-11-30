@@ -1,8 +1,8 @@
 import React from "react"
 
-// import "./styling/App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Home from "./components/Home.js"
+import AboutUs from "./components/AboutUs.js";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         {/* Route Paths */}
         <Route exact path="/" render={props => <Home {...props} />} />
 
-        {/* <Route path="/about" render={props => <About {...props} />} /> */}
+        <Route path="/about" render={props => <AboutUs {...props} />} />
 
         {/* <Route path="/services" render={props => <Services {...props} />} /> */}
 

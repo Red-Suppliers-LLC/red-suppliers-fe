@@ -27,10 +27,10 @@ background-color: blue; /* Green */
 .div1 {
   width: 70%; 
   height: 70%;
-  font-size: 20px; 
   line-height: 40px; 
+  font-size: 19px; 
+  line-height: 30px; 
 }
-
 
 .center {
   display: flex; 
@@ -62,9 +62,9 @@ background-color: blue; /* Green */
     justify-content: center; 
 }
 
-.services2 {
+/* .services2 {
  
-}
+} */
 
 .benefits {
   width: 500px;
@@ -91,6 +91,19 @@ background-color: blue; /* Green */
 .bit-spacing {
   margin: 20px;
 }
+
+.copy {
+  margin: 10px;  
+  display: flex; 
+  justify-content: center;  
+}
+
+.font-size {
+  font-size: 17px; 
+  line-height: 30px; 
+}
+
+
 
 
 
