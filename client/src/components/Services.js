@@ -1,43 +1,17 @@
-import React from "react"
-import "../styling/Home.css"
-import OurPartners from "./OurPartners.js"
-import NavBar from "./NavBar"
-import HomeImg from "../img/homepageimgtwo.png";  
+import React from "react"; 
+import Navbar from "./NavBar.js"; 
 import Footer from "./Footer.js"; 
-import AboutUs from "./AboutUs.js";  
 
-const Home = () => {
-  return (
-    <>
-      <div>
-        <NavBar />
-      </div>
-      <div className="body">
-        <img className="home-img" src={HomeImg} alt="home" />
-      </div>
-      <div>
-        <h1> Red Suppliers </h1>
-      </div>
-      <div className="center">
-        <p className="div1">
-          Red Suppliers specializes in fill the needs of government
-          organizations by delivering needed products within the medical
-          industry. Red Suppliers focuses on dental and portable aid supplies to
-          be delivered to the needed locations
-        </p>
-      </div>
-      <div className="spacing"> </div>
+import "../styling/Home.css"; 
 
-      <div  className="services-title"> 
-        <h2> Our Services </h2>
-        </div> 
-        <div className="bit-spacing"> </div> 
-      <div className="center">
-     {/* <h3> Hand Shake </h3>
-        <div className="center">
-        <div className="button" type="submit"> Contact US </div>
-        </div>  */}
-        <div className="spacing"> </div>
+const Services = () => {
+
+    return (
+        <>
+        <div> 
+        <Navbar />
+        </div>
+        <div className="double-space"> </div>
         <div className="side-by-side"> 
            <div className="services1"> 
                 <div> 
@@ -61,22 +35,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div> 
-            {/* <AboutUs /> */}
-        </div> 
-        <div className="spacing"> </div>
-      </div>
-      {/* our partners component */}
-      <div className="spacing"> </div>
-      <div>
-        <OurPartners />
-        <div className="spacing"> </div>
-        <div className="copy">
-            <Footer />     
-        </div>  
-      </div>
-    </>
-  )
-}
+        <div className="double-space"> </div>
+        <div className="center"> 
+            <Footer />
+        </div>
+        </>
+    );
+};
 
-export default Home
+export default Services; 

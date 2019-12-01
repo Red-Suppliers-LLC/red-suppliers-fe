@@ -26,3 +26,23 @@
   .spacing {
     padding: 50px; 
   }
+
+  .wrap-one {
+    display: flex;
+    flex-direction: row-reverse;  
+    justify-content: space-around; 
+  }
+
+  .about-space {
+    margin: 70px; 
+  }
+
+  .wrap-two {
+    display: flex;
+    /* flex-direction: row-reverse;   */
+    justify-content: space-around; 
+  }
+
+  .double-space {
+    margin: 100px; 
+  }
