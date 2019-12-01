@@ -1,21 +1,16 @@
 import React from "react"
 import logo from "../img/PharmacyLogo.PNG"
+import "../styling/NavBar.css"; 
 
 class NavBar extends React.Component {
   render() {
     return (
-      <div style={{ display: "flex", alignItems: "center", width: "100%" }}>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <a
+      <div className="wrap-navbar">
+        <div>
+          {/* <a
             href="http://localhost:3000/"
-            style={{
-              justifyContent: "flex-end",
-              textDecoration: "none",
-              alignContent: "center",
-              margin: "5px",
-              fontWeight: "900"
-            }}
-          >
+          > */}
+          <div>  
             <img
               src={logo}
               alt="Red Suppliers LLC Logo"
@@ -26,56 +21,37 @@ class NavBar extends React.Component {
                 marginLeft: "155px"
               }}
             />
-            Red Suppliers LLC
-          </a>
+            </div>
+            
+          {/* </a> */}
         </div>
-        <div style={{ display: "flex", justifyContent: "flex-end" }}>
+
+        <div className="name"> 
+            Red Suppliers LLC
+            </div> 
+            
+        <div className="wrap-link">
           <a
             href="http://localhost:3000/"
-            style={{
-              // justifyContent: "flex-end",
-              textDecoration: "none",
-              alignContent: "center",
-              margin: "10px",
-              fontWeight: "600"
-            }}
+            className="link"
           >
             HOME
           </a>
           <a
             href="http://localhost:3000/about"
-            style={{
-              // justifyContent: "flex-end",
-              textDecoration: "none",
-              alignContent: "center",
-              margin: "10px",
-              fontWeight: "600"
-            }}
+            className="link"
           >
             ABOUT
           </a>
           <a
             href="http://localhost:3000/services"
-            style={{
-              //justifyContent: "flex-end",
-              textDecoration: "none",
-              alignContent: "center",
-              margin: "10px",
-              fontWeight: "600"
-            }}
+            className="link"
           >
             SERVICES
           </a>
           <a
             href="http://localhost:3000/contact"
-            style={{
-              // justifyContent: "flex-end",
-              textDecoration: "none",
-              alignContent: "center",
-              margin: "10px",
-              marginRight: "155px",
-              fontWeight: "600"
-            }}
+            className="link"
           >
             CONTACT US
           </a>
