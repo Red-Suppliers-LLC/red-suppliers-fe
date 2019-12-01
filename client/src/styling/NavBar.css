@@ -4,20 +4,19 @@
 
 
 .wrap-link {
+   text-align: end; 
+   margin-left: 600px; 
     display: flex; 
-    /* justify-content: flex-end;  */
+    justify-content: flex-end; 
+    
 }
 
 .link {
     text-decoration: none; 
     color: #000000; 
-    margin: 20px; 
-    display: flex; 
-    justify-content: flex-end; 
-    /* justify-content: center; */
-    /* margin-bottom: 60px;  */
+    margin: 30px;  
+    
 }
-
 
 .name {
     text-decoration: none; 
