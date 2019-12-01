@@ -1,5 +1,30 @@
-/* Whenever I push to github, i lose the styles page, not sure why??? So i put the styles in the code on the NavBar.js page. If you wanted to refactor the code into the navbar page here (where this comment is), by all means have at it lol.... 
+.wrap-navbar {
+    display: flex; 
+}
 
-i give up... 
 
-Wave my white flag..... */
+.wrap-link {
+   text-align: end; 
+   margin-left: 600px; 
+    display: flex; 
+    justify-content: flex-end; 
+    
+}
+
+.link {
+    text-decoration: none; 
+    color: #000000; 
+    margin: 30px;  
+    
+}
+
+.name {
+    text-decoration: none; 
+    color: #000000; 
+    display: flex; 
+    justify-content: center; 
+    margin: 10px; 
+}
+
+
+

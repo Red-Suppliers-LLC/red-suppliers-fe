@@ -3,6 +3,7 @@ import Navbar from "./NavBar.js";
 import Footer from "./Footer.js";  
 
 import "../styling/About.css"; 
+import "../styling/Footer.css"; 
 
 const AboutUs = () => {
  
@@ -12,13 +13,15 @@ const AboutUs = () => {
         <Navbar />
         <div> 
             <div> 
-            <h3> About Us Page </h3>
+            {/* <h3> About Us Page </h3> */}
             </div>
             <div className="spacing"> </div>
-            <div> 
+            <div className="wrap-one"> 
                 <div> 
-                    <img /> 
+                    {/* <img /> */}
+                    <h2> This is a place holder for an img  </h2> 
                 </div>
+                
                 <div className="body-one">
                     <div>
                     <h3 className="title"> Our Vision </h3>
@@ -28,7 +31,34 @@ const AboutUs = () => {
 
             </div>
         </div>
+        <div className="about-space"> </div> 
+        <div> 
+            <div> 
+            {/* <h3> About Us Page </h3> */}
+            </div>
+            <div className="spacing"> </div>
+            <div className="wrap-two"> 
+                <div> 
+                    {/* <img /> */}
+                    <h2> This is a place holder for img two  </h2> 
+                </div>
+                
+                <div className="body-one">
+                    <div>
+                    <h3 className="title"> About Us </h3>
+                    <p> Red Suppliers specializes in filling the needs of government organizations by delivering 
+                    Supplies within the medical industry. Red Suppliers mainly focuses on dental and portable aid
+                    supplies to be delivered to local and national locations.Our focus is to provide a qualitative service with government organizations to ensure customer satisfaction.
+ </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div className="copy">
         <Footer />
+        </div> 
         </> 
     );
 };
