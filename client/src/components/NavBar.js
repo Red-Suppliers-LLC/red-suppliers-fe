@@ -27,8 +27,10 @@ class NavBar extends React.Component {
         </div>
 
         <div className="name"> 
-            Red Suppliers LLC
+        <div> 
+            <h3> Red Suppliers LLC </h3> 
             </div> 
+        </div> 
             
         <div className="wrap-link">
           <a
