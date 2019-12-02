@@ -107,6 +107,7 @@ background-color: blue; /* Green */
 
 .home-wrap-one {
   background: green; 
+  display: inline; 
   display: flex; 
   flex-direction: row-reverse; 
   
