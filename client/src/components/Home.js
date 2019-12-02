@@ -4,7 +4,7 @@ import "../styling/About.css";
 // import OurPartners from "./OurPartners.js"
 import NavBar from "./NavBar"
 import HomeImg from "../img/homepageimgtwo.png";  
-import Footer from "./Footer.js"; 
+import Footer from "./Footer.js";
 // import AboutUs from "./AboutUs.js";  
 import Icons from "./Icons.js"; 
 
