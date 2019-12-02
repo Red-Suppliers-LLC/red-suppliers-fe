@@ -1,0 +1,12 @@
+.center {
+    display: flex; 
+    justify-content: center; 
+}
+
+.font {
+    font-size: 100px; 
+}
+
+.spacing {
+    margin: 10px; 
+  }

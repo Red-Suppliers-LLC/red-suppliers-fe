@@ -15,7 +15,9 @@ h1 {
 }
 
 .button {
-background-color: blue; /* Green */
+background-color: red; /* Green */
+border-radius: 20px;
+width: 85px; 
   border: none;
   color: white;
   padding: 15px 32px;

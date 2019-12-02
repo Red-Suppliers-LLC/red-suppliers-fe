@@ -1,11 +1,12 @@
 import React from "react"
 import "../styling/Home.css"
 import "../styling/About.css"; 
-import OurPartners from "./OurPartners.js"
+// import OurPartners from "./OurPartners.js"
 import NavBar from "./NavBar"
 import HomeImg from "../img/homepageimgtwo.png";  
 import Footer from "./Footer.js"; 
-import AboutUs from "./AboutUs.js";  
+// import AboutUs from "./AboutUs.js";  
+import Icons from "./Icons.js"; 
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <div className="body">
         <img className="home-img" src={HomeImg} alt="home" />
       </div>
+      <Icons /> 
       <div>
         <h1> Red Suppliers </h1>
       </div>
