@@ -103,7 +103,29 @@ background-color: blue; /* Green */
   line-height: 30px; 
 }
 
+/* About us on homepage */
 
+.home-wrap-one {
+  background: green; 
+  display: inline; 
+  display: flex; 
+  flex-direction: row-reverse; 
+  
+}
 
+.home-wrap-two {
+  background: blue;
+  display: flex;  
+  
+}
+
+/* Media query's for home component */
+
+@media (max-width: 2656px) {
+  .home-img {
+    width: 2140px;
+    height: 600px;
+  }
+}
 
 

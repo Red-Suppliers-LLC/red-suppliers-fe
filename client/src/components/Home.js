@@ -1,5 +1,6 @@
 import React from "react"
 import "../styling/Home.css"
+import "../styling/About.css"; 
 import OurPartners from "./OurPartners.js"
 import NavBar from "./NavBar"
 import HomeImg from "../img/homepageimgtwo.png";  
@@ -26,17 +27,20 @@ const Home = () => {
           be delivered to the needed locations
         </p>
       </div>
+
+      <div className="center">
+        <div className="button" type="submit"> Contact US </div>
+        </div>  
+
       <div className="spacing"> </div>
 
       <div  className="services-title"> 
         <h2> Our Services </h2>
         </div> 
+
         <div className="bit-spacing"> </div> 
       <div className="center">
-     {/* <h3> Hand Shake </h3>
-        <div className="center">
-        <div className="button" type="submit"> Contact US </div>
-        </div>  */}
+     
         <div className="spacing"> </div>
         <div className="side-by-side"> 
            <div className="services1"> 
@@ -69,7 +73,7 @@ const Home = () => {
       {/* our partners component */}
       <div className="spacing"> </div>
       <div>
-        <OurPartners />
+        {/* <OurPartners /> */}
         <div className="spacing"> </div>
         <div className="copy">
             <Footer />     
