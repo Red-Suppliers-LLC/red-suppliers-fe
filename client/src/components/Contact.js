@@ -6,34 +6,35 @@ const Contact =()=>{
   return(
     <div className='Contact_Contain'>
       <NavBar/>
-      <div className ='Contact_Input'>
+      <form className ='Contact_Input'
+      action="https://mailthis.to/contact@redsuppliers.com"
+      method="POST" encType="multipart/form-data">
         <input 
         className='input'
+        type='text'
         name={'Name'}
         placeholder={'Name'}
         
         />
+
         <input 
         className='input'
-        name={'Company'}
-        placeholder={'Company'}
-        
-        />
-        <input 
-        className='input'
+        type='email'
         name={'Email'}
         placeholder={'Email'}
         
         />
  
-        <input 
-        className='input'
-        name={'Message'}
-        placeholder={'Message'}
+        <textarea 
+        name="message" 
+        placeholder="Enter your message here">
 
-        />
-      <button className='send'> Send </button>
-      </div>
+        </textarea>
+
+      <button className='send'
+      type='submit'
+      > Send </button>
+      </form>
     </div>
   )
 }
