@@ -103,6 +103,20 @@ background-color: blue; /* Green */
   line-height: 30px; 
 }
 
+/* About us on homepage */
+
+.home-wrap-one {
+  background: green; 
+  display: flex; 
+  flex-direction: row-reverse; 
+  
+}
+
+.home-wrap-two {
+  background: blue;
+  display: flex;  
+  
+}
 
 
 

@@ -49,7 +49,7 @@ const AboutUs = () => {
                     <p> Red Suppliers specializes in filling the needs of government organizations by delivering 
                     Supplies within the medical industry. Red Suppliers mainly focuses on dental and portable aid
                     supplies to be delivered to local and national locations.Our focus is to provide a qualitative service with government organizations to ensure customer satisfaction.
- </p>
+                    </p>
                     </div>
                 </div>
 
