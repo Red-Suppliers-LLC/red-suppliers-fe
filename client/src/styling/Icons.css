@@ -1,4 +1,4 @@
-.center {
+.middle {
     display: flex; 
     justify-content: center; 
 }
@@ -10,3 +10,11 @@
 .spacing {
     margin: 10px; 
   }
+
+  @media (max-width: 500px) {
+    
+    .middle {
+        display: flex; 
+        justify-content: center; 
+    }
+}
