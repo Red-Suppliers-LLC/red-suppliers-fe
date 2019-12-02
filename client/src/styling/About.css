@@ -34,7 +34,7 @@
   }
 
   .about-space {
-    margin: 70px; 
+    margin: 50px; 
   }
 
   .wrap-two {
@@ -46,3 +46,13 @@
   .double-space {
     margin: 100px; 
   }
+
+  .aboutimg {
+    width: 670px; 
+    height: auto;
+}
+
+.visionimg {
+  width: 570px; 
+  height: auto;
+}

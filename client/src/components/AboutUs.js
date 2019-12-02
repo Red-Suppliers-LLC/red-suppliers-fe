@@ -5,6 +5,9 @@ import Footer from "./Footer.js";
 import "../styling/About.css"; 
 import "../styling/Footer.css"; 
 
+import AboutImg from "../img/aboutus.png"; 
+import OurVision from "../img/ourvision.png"; 
+
 const AboutUs = () => {
  
 
@@ -18,8 +21,8 @@ const AboutUs = () => {
             <div className="spacing"> </div>
             <div className="wrap-one"> 
                 <div> 
-                    {/* <img /> */}
-                    <h2> This is a place holder for an img  </h2> 
+                    <img className="visionimg" src={OurVision} />
+                    
                 </div>
                 
                 <div className="body-one">
@@ -39,8 +42,8 @@ const AboutUs = () => {
             <div className="spacing"> </div>
             <div className="wrap-two"> 
                 <div> 
-                    {/* <img /> */}
-                    <h2> This is a place holder for img two  </h2> 
+                    <img className="aboutimg" src={AboutImg} />
+                
                 </div>
                 
                 <div className="body-one">
@@ -49,7 +52,7 @@ const AboutUs = () => {
                     <p> Red Suppliers specializes in filling the needs of government organizations by delivering 
                     Supplies within the medical industry. Red Suppliers mainly focuses on dental and portable aid
                     supplies to be delivered to local and national locations.Our focus is to provide a qualitative service with government organizations to ensure customer satisfaction.
- </p>
+                    </p>
                     </div>
                 </div>
 
