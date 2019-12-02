@@ -5,6 +5,9 @@ import Footer from "./Footer.js";
 import "../styling/About.css"; 
 import "../styling/Footer.css"; 
 
+import AboutImg from "../img/aboutus.png"; 
+import OurVision from "../img/ourvision.png"; 
+
 const AboutUs = () => {
  
 
@@ -18,8 +21,8 @@ const AboutUs = () => {
             <div className="spacing"> </div>
             <div className="wrap-one"> 
                 <div> 
-                    {/* <img /> */}
-                    <h2> This is a place holder for an img  </h2> 
+                    <img className="visionimg" src={OurVision} />
+                    
                 </div>
                 
                 <div className="body-one">
@@ -39,8 +42,8 @@ const AboutUs = () => {
             <div className="spacing"> </div>
             <div className="wrap-two"> 
                 <div> 
-                    {/* <img /> */}
-                    <h2> This is a place holder for img two  </h2> 
+                    <img className="aboutimg" src={AboutImg} />
+                
                 </div>
                 
                 <div className="body-one">
