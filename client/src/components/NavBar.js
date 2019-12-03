@@ -3,6 +3,7 @@ import logo from "../img/PharmacyLogo.PNG"
 import "../styling/NavBar.css"; 
 
 class NavBar extends React.Component {
+
   render() {
     return (
       <div className="wrap-navbar">
@@ -31,7 +32,8 @@ class NavBar extends React.Component {
             <h3> Red Suppliers LLC </h3> 
             </div> 
         </div> 
-            
+            <label for="toggle" >&#9776;</label>
+            <input type="checkbox" id="toggle"/>  
         <div className="wrap-link">
           <a
             href="http://localhost:3000/"
