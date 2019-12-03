@@ -31,7 +31,7 @@ const Home = () => {
       </div>
 
       <div className="center">
-        <div className="button" type="submit"> Contact US </div>
+        <div className="button" type="submit"> Contact Us </div>
         </div>  
 
       <div className="spacing"> </div>
