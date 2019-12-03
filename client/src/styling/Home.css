@@ -32,6 +32,7 @@ width: 85px;
   line-height: 40px; 
   font-size: 19px; 
   line-height: 30px; 
+  text-align: center; 
 }
 
 .center {
@@ -164,7 +165,7 @@ width: 85px;
   }
 
   .font-size {
-    font-size: 19px; 
+    font-size: 22px; 
     line-height: 40px;
     text-align: center; 
   }
@@ -173,9 +174,13 @@ width: 85px;
     width: 70%; 
     height: 70%;
     line-height: 40px; 
-    font-size: 19px; 
+    font-size: 22px; 
     line-height: 30px; 
     text-align: center; 
+  }
+
+  .title-font {
+    font-size: 25px; 
   }
 }
 

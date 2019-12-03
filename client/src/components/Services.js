@@ -11,6 +11,7 @@ const Services = () => {
         <div> 
         <Navbar />
         </div>
+        <h2 className="center"> Our Services </h2>
         <div className="double-space"> </div>
         <div className="side-by-side"> 
            <div className="services1"> 
