@@ -62,6 +62,7 @@ label {
         display: block; 
         border-bottom: 1px solid #EAEAEB; 
         margin: 0; 
+        line-height: 30px;
      }
 
      /* .link {
