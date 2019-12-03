@@ -52,6 +52,7 @@ label {
      } */
 
      .wrap-link {
+         margin-left: 20px; 
         text-align: center; 
         width: 100%; 
         display: none; 
@@ -61,15 +62,12 @@ label {
         display: block; 
         border-bottom: 1px solid #EAEAEB; 
         margin: 0; 
-        display: flex; 
-        justify-content: center; 
      }
 
      /* .link {
         text-align: center; 
-        width: 100%; 
-        display: none; 
-        
+        width: 100%;  */
+        /* display: none; 
     } */
 
      label {
@@ -83,7 +81,6 @@ label {
     #toggle:checked + .wrap-link {
         display: block; 
     }
-   
   }
   
 
