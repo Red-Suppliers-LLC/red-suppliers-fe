@@ -38,15 +38,9 @@ class NavBar extends React.Component {
           > */}
           <div>  
             <img
-            
               src={logo}
               alt="Red Suppliers LLC Logo"
-              style={{
-                height: "75px",
-                width: "auto",
-                borderRadius: "50px",
-                marginLeft: "155px"
-              }}
+              className="nav-img"
             />
             </div>
             

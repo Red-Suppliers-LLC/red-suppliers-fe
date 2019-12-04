@@ -37,6 +37,13 @@ label {
 .nav {
     border-bottom: 1px solid #EAEAEB; 
 }
+
+.nav-img {
+    height: 75px;
+    width: auto;
+    border-radius: 50px; 
+    margin-left: 155px;
+}
   
   @media (max-width: 1000px) {
   
