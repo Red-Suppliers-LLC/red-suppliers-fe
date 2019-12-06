@@ -1,9 +1,10 @@
 .contact_Container{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-
+  background: blue; 
   width:600px;
+  /* margin: 0 auto; */
+  /* margin: 500px;  */
+  display: flex; 
+  justify-content: center;
 }
 .Contact_Input{
   display: flex;

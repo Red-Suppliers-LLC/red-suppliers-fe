@@ -4,8 +4,9 @@ import '../styling/Contact.css';
 
 const Contact =()=>{
   return(
-    <div className='Contact_Contain'>
+    <>
       <NavBar/>
+    <div className='contact_Container'>
       <form className ='Contact_Input'
       action="https://mailthis.to/contact@redsuppliers.com"
       method="POST" encType="multipart/form-data">
@@ -36,6 +37,7 @@ const Contact =()=>{
       > Send </button>
       </form>
     </div>
+    </> 
   )
 }
 
