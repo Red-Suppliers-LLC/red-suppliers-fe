@@ -6,7 +6,7 @@ const Contact =()=>{
   return(
     <>
       <NavBar/>
-    <div className='contact_Container'>
+    <div className='contact-container'>
       <form className ='Contact_Input'
       action="https://mailthis.to/contact@redsuppliers.com"
       method="POST" encType="multipart/form-data">

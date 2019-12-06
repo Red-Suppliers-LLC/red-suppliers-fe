@@ -1,10 +1,8 @@
-.contact_Container{
-  background: blue; 
-  width:600px;
-  /* margin: 0 auto; */
-  /* margin: 500px;  */
+.contact-container{
+  /* background: blue; */
+  height: auto;
   display: flex; 
-  justify-content: center;
+  align-items: center; 
 }
 .Contact_Input{
   display: flex;
