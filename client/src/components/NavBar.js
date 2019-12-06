@@ -36,7 +36,7 @@ class NavBar extends React.Component {
           {/* <a
             href="http://localhost:3000/"
           > */}
-          <div>  
+          <div className="flex-img"> 
             <img
               src={logo}
               alt="Red Suppliers LLC Logo"
