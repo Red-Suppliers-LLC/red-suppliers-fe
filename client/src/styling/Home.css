@@ -4,8 +4,8 @@
 }
 
 .home-img {
-  width: 1600px;
-  height: 600px;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -32,6 +32,7 @@ width: 85px;
   line-height: 40px; 
   font-size: 19px; 
   line-height: 30px; 
+  text-align: center; 
 }
 
 .center {
@@ -63,10 +64,6 @@ width: 85px;
     display: flex; 
     justify-content: center; 
 }
-
-/* .services2 {
- 
-} */
 
 .benefits {
   width: 500px;
@@ -118,16 +115,9 @@ width: 85px;
 .home-wrap-two {
   background: blue;
   display: flex;  
-  
 }
 
 /* Media query's for home component */
-
-
-
-
-
-
 
 
 @media (max-width: 2656px) {
@@ -137,12 +127,20 @@ width: 85px;
   }
 }
 
-@media (max-width: 1000px) {
 
+
+@media (max-width: 1000px) {
+  /* .home-img {
+    width: 100%;
+    height: 600px; 
+  } */
 }
 
 @media (max-width: 800px) {
-
+  /* .home-img {
+    width: 100%;
+    height: 600px; 
+  } */
 }
 
 @media (max-width: 500px) {
@@ -150,12 +148,17 @@ width: 85px;
   .body {
     width: 100%;
     height: 0 auto;
+    overflow-y: scroll; 
+    position: relative;
 }
 
   .home-img {
-    width: 600px;
+    /* position:absolute; */
+    overflow-x:hidden;
+    overflow-y:hidden;
+    width: 100px;
     height: auto;
-   
+    left:50%;
   }
 
   .side-by-side {
@@ -166,16 +169,23 @@ width: 85px;
   }
 
   .font-size {
-    font-size: 19px; 
-    line-height: 40px; 
+    font-size: 22px; 
+    line-height: 40px;
+    text-align: center; 
   }
 
   .div1 {
     width: 70%; 
     height: 70%;
     line-height: 40px; 
-    font-size: 19px; 
+    font-size: 22px; 
     line-height: 30px; 
+    text-align: center; 
+  }
+
+  .title-font {
+    font-size: 25px; 
+    background: blue; 
   }
 }
 
