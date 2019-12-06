@@ -1,0 +1,35 @@
+.center {
+    display: flex; 
+    justify-content: center; 
+  }
+
+  .space-between {
+      margin: 20px; 
+  }
+
+  .partner-one {
+    display: flex; 
+    
+  }
+
+  .partner-two {
+   
+  }
+
+  .partner-three {
+    
+  }
+
+  .partner-four {
+    
+  }
+
+  .set-one {
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  .set-two {
+    display: flex; 
+    justify-content: space-around; 
+  }

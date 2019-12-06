@@ -1,0 +1,26 @@
+.contact-container{
+  /* background: blue; */
+  height: auto;
+  display: flex; 
+  align-items: center; 
+}
+.Contact_Input{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 500px;
+}
+.input{
+  border: solid black 1px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 50%;
+  margin: 10px auto;
+  padding: 2px;
+}
+.send{
+  width: 100px;
+  margin:0 auto;
+}

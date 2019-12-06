@@ -1,0 +1,20 @@
+.middle {
+    display: flex; 
+    justify-content: center; 
+}
+
+.font {
+    font-size: 100px; 
+}
+
+.spacing {
+    margin: 10px; 
+  }
+
+  @media (max-width: 500px) {
+    
+    .middle {
+        display: flex; 
+        justify-content: center; 
+    }
+}
