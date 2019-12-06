@@ -1,6 +1,7 @@
 import React from "react"
 import "../styling/Home.css"
 import "../styling/About.css"; 
+
 // import OurPartners from "./OurPartners.js"
 import NavBar from "./NavBar"
 import HomeImg from "../img/homepageimgtwo.png";  
@@ -32,6 +33,7 @@ const Home = () => {
 
       <div className="center">
         <div className="button" type="submit"> Contact Us </div>
+
         </div>  
 
       <div className="spacing"> </div>
