@@ -3,6 +3,32 @@ import logo from "../img/PharmacyLogo.PNG"
 import "../styling/NavBar.css"; 
 
 class NavBar extends React.Component {
+  // Make backend database to allow toggle below 
+  // state = {
+  //   newtoggle: {
+  //     toggle: false
+  //   }
+  // }
+
+  // handleSubmit = event => {
+  //   event.preventDefault()
+  //   this.state.toggle(this.state)
+  //   this.setState({
+  //     newtoggle: {
+  //       toggle: false
+  //     }
+  //   })
+  // }
+
+  //  handleChange = event => {
+  //  this.setState({
+  //    newtoggle: {
+  //       ...this.state.toggle, 
+  //       [event.target.name]: event.target.value
+  //    }
+  //  })
+  // }
+// Make backend database to allow toggle above
   render() {
     return (
       <div className="wrap-navbar">
@@ -10,16 +36,11 @@ class NavBar extends React.Component {
           {/* <a
             href="http://localhost:3000/"
           > */}
-          <div>  
+          <div className="flex-img"> 
             <img
               src={logo}
               alt="Red Suppliers LLC Logo"
-              style={{
-                height: "75px",
-                width: "auto",
-                borderRadius: "50px",
-                marginLeft: "155px"
-              }}
+              className="nav-img"
             />
             </div>
             
@@ -31,7 +52,15 @@ class NavBar extends React.Component {
             <h3> Red Suppliers LLC </h3> 
             </div> 
         </div> 
-            
+        
+            {/* <form onSubmit="handleSubmit"> 
+            <label> &#9776; </label>
+            <input type="checkbox" onChange="handleChange"/>  
+           </form> */}
+
+        <div className="nav"> 
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>  
         <div className="wrap-link">
           <a
             href="http://localhost:3000/"
@@ -57,6 +86,7 @@ class NavBar extends React.Component {
           >
             CONTACT US
           </a>
+        </div>
         </div>
       </div>
     )

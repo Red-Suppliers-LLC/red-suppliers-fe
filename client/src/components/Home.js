@@ -1,11 +1,13 @@
 import React from "react"
 import "../styling/Home.css"
 import "../styling/About.css"; 
-import OurPartners from "./OurPartners.js"
+
+// import OurPartners from "./OurPartners.js"
 import NavBar from "./NavBar"
 import HomeImg from "../img/homepageimgtwo.png";  
-import Footer from "./Footer.js"; 
-import AboutUs from "./AboutUs.js";  
+import Footer from "./Footer.js";
+// import AboutUs from "./AboutUs.js";  
+import Icons from "./Icons.js"; 
 
 const Home = () => {
   return (
@@ -16,6 +18,7 @@ const Home = () => {
       <div className="body">
         <img className="home-img" src={HomeImg} alt="home" />
       </div>
+      <Icons /> 
       <div>
         <h1> Red Suppliers </h1>
       </div>
@@ -29,7 +32,8 @@ const Home = () => {
       </div>
 
       <div className="center">
-        <div className="button" type="submit"> Contact US </div>
+        <div className="button" type="submit"> Contact Us </div>
+
         </div>  
 
       <div className="spacing"> </div>
@@ -47,7 +51,7 @@ const Home = () => {
                 <div> 
                <img className="handshake-img" src="https://www.maxpixel.net/static/photo/1x/Hands-Welcome-Handshake-Shaking-Hands-Agreement-3091908.jpg"/> 
                <div className="center">    
-                    <h3> Benefits </h3> 
+                    <h3 className="title-font"> Benefits </h3> 
                 </div>
                 <div className="benefits">
                     <p className="font-size"> Through providing medical supplies we noticed that some buyers look for a few key things such as quality, efficiency, and low cost. In order to maintain consistency and quality we associate ourselves with other professionals to satisfy each and everyone of those criterias. One of our aims is to build a long term relationship of customer satisfaction. </p>    
@@ -58,7 +62,7 @@ const Home = () => {
             <div className="services2">  
                <img className="med-img" src="https://2001-2009.state.gov/cms_images/030405_med_supplies.jpg" /> 
                <div className="center">    
-                    <h3> Medical Supplies </h3> 
+                    <h3 className="title-font"> Medical Supplies </h3> 
                 </div> 
                <div className="supplies"> 
                 <p className="font-size"> The list of products we supply can range from Basic First Aid to even OSHA, Pets, Coast Guard, Swimming First Aids and many more. We are constantly updating our inventory to satisfy our buyers. Contact us to see how we can provide what you may need. </p>

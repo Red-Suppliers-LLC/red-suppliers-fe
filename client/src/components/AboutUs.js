@@ -20,7 +20,9 @@ const AboutUs = () => {
             </div>
             <div className="spacing"> </div>
             <div className="wrap-one"> 
-                <div> 
+
+                <div className="mobile-center"> 
+
                     <img className="visionimg" src={OurVision} />
                     
                 </div>
@@ -41,7 +43,8 @@ const AboutUs = () => {
             </div>
             <div className="spacing"> </div>
             <div className="wrap-two"> 
-                <div> 
+
+                <div className=""> 
                     <img className="aboutimg" src={AboutImg} />
                 
                 </div>
@@ -58,7 +61,7 @@ const AboutUs = () => {
 
             </div>
         </div>
-
+        <div className="extra"> </div>
         <div className="copy">
         <Footer />
         </div> 
