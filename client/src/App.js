@@ -13,11 +13,11 @@ function App() {
         {/* Route Paths */}
         <Route exact path="/" render={props => <Home {...props} />} />
 
-        <Route path="/about" render={props => <AboutUs {...props} />} />
+        <Route path="/about" component={AboutUs} />
 
-        <Route path="/services" render={props => <Services {...props} />} />
+        <Route path="/services" component={Services} />
 
-        <Route path="/contact" render={props => <Contact {...props} />} />
+        <Route path="/contact" component={Contact} />
       </Router>
     </>
   )
