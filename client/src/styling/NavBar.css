@@ -6,10 +6,9 @@
 
 .wrap-link {
    text-align: end; 
-   margin-left: 600px; 
+   margin-left: px; 
     display: flex; 
     justify-content: flex-end; 
-    
 }
 
 .link {
@@ -45,6 +44,11 @@ label {
     border-radius: 50px; 
     margin-left: 155px;
 }
+
+    
+.wrap-both {
+    display: none; 
+  }
   
   @media (max-width: 1000px) {
   
@@ -58,10 +62,6 @@ label {
 
      .wrap-link {
          margin-left: 10px; 
-        /* display: flex; 
-        flex-direction: column; 
-        justify-content: center;  */
-        /* width: 500px;  */
         display: none; 
         text-align: center; 
      }
@@ -134,9 +134,6 @@ label {
         margin-right: 17px; 
     }
 
-    .input-center {
-        background: #000000; 
-    }
   }
   
 
