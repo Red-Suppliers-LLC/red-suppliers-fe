@@ -118,6 +118,7 @@ label {
       
        .link-bar {
          /* background: green;  */
+        
        }
       
        .wrap-both {
@@ -131,6 +132,10 @@ label {
         border-radius: 50px; 
         margin-left: 20px;
         margin-right: 17px; 
+    }
+
+    .input-center {
+        background: #000000; 
     }
   }
   

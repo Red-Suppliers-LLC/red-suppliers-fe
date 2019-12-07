@@ -73,9 +73,9 @@ class NavBar extends React.Component {
           </div>
           <div className="link-bar">  
         <label for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle"/> 
         </div>  
         </div> 
+        <input type="checkbox" id="toggle"/> 
         <div className="wrap-link">
           <a
             href="http://localhost:3000/"
