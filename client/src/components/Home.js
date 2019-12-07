@@ -11,11 +11,11 @@ import Icons from "./Icons.js";
 
 const Home = () => {
   return (
-    <>
+    <div className="body">
       <div>
         <NavBar />
       </div>
-      <div className="body">
+      <div>
         <img className="home-img" src={HomeImg} alt="home" />
       </div>
       <Icons /> 
@@ -83,7 +83,7 @@ const Home = () => {
             <Footer />     
         </div>  
       </div>
-    </>
+    </div>
   )
 }
 

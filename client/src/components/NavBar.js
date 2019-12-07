@@ -60,18 +60,20 @@ class NavBar extends React.Component {
 
         {/* http://localhost:3000 */}
 
+        {/* https://redsuppliers.com */}
+
         <div className="nav"> 
         <label for="toggle">&#9776;</label>
         <input type="checkbox" id="toggle"/>  
         <div className="wrap-link">
           <a
-            href="https://redsuppliers.com/"
+            href="http://localhost:3000/"
             className="link"
           >
             HOME
           </a>
           <a
-            href="https://redsuppliers.com/about"
+            href="http://localhost:3000/about"
             className="link"
           >
             ABOUT
