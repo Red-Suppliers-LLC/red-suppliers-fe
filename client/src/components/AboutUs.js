@@ -12,7 +12,7 @@ const AboutUs = () => {
  
 
     return(
-        <>
+        <div className="body">
         <Navbar />
         <div> 
             <div> 
@@ -65,7 +65,7 @@ const AboutUs = () => {
         <div className="copy">
         <Footer />
         </div> 
-        </> 
+        </div> 
     );
 };
 

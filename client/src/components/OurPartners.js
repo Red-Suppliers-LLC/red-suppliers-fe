@@ -3,7 +3,7 @@ import "../styling/ourpartners.css"
 
 const OurPartners = () => {
   return (
-    <>
+    <div className="body">
       <div>
         <h2 className="center"> Our Partners </h2>
       </div>
@@ -31,7 +31,7 @@ const OurPartners = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
