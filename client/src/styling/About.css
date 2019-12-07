@@ -1,4 +1,8 @@
- .body-one {
+.body {
+  overflow-x: hidden !important;
+}
+
+.body-one {
     width: 600px;
     height: auto; 
     display: inline-block; 
@@ -137,7 +141,6 @@
   display: flex; 
   justify-content: center; 
   line-height: 30px;
- 
  }
 
 }

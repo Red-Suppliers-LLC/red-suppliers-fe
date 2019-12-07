@@ -1,6 +1,5 @@
 .body {
-    width: 100%;
-    height: 0 auto;
+  overflow-x: hidden !important;
 }
 
 .home-img {
@@ -120,68 +119,41 @@ width: 85px;
 
 /* Media query's for home component */
 
+
 @media (max-width: 2656px) {
+  .body {
+    overflow-x: hidden !important;
+  }
+
   .home-img {
     width: 2140px;
     height: 600px;
   }
 }
-
-.home-wrap-one {
-  background: green; 
-  display: inline; 
-  display: flex; 
-  flex-direction: row-reverse; 
-  
-}
-
-.home-wrap-two {
-  background: blue;
-  display: flex;  
-}
-
-/* Media query's for home component */
-
-
-@media (max-width: 2656px) {
-  .home-img {
-    width: 2140px;
-    height: 600px;
-  }
-}
-
-
 
 @media (max-width: 1000px) {
-  /* .home-img {
-    width: 100%;
-    height: 600px; 
-  } */
+  .body {
+    overflow-x: hidden !important;
+  }
 }
 
 @media (max-width: 800px) {
-  /* .home-img {
-    width: 100%;
-    height: 600px; 
-  } */
+  .body {
+    overflow-x: hidden !important;
+  }
 }
 
 @media (max-width: 500px) {
 
   .body {
-    width: 100%;
-    height: 0 auto;
-    overflow-y: scroll; 
-    position: relative;
+    overflow-x: hidden !important;
 }
 
   .home-img {
-    /* position:absolute; */
-    overflow-x:hidden;
-    overflow-y:hidden;
     width: 100px;
     height: auto;
     left:50%;
+    /* display: none;  */
   }
 
   .side-by-side {
@@ -198,17 +170,25 @@ width: 85px;
   }
 
   .div1 {
-    width: 70%; 
-    height: 70%;
+    width: 400px; 
+    height: auto;
     line-height: 40px; 
     font-size: 22px; 
-    line-height: 30px; 
+    line-height: 40px; 
     text-align: center; 
   }
 
   .title-font {
     font-size: 25px; 
-    background: blue; 
+  }
+  
+  .benefits {
+    width: 490px;
+    height: auto;
+    line-height: 30px; 
+    display: flex; 
+    justify-content: center; 
+   
   }
 }
 
