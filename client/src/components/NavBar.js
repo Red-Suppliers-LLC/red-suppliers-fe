@@ -36,13 +36,13 @@ class NavBar extends React.Component {
           {/* <a
             href="http://localhost:3000/"
           > */}
-          <div className="flex-img"> 
+          {/* <div className="flex-img"> 
             <img
               src={logo}
               alt="Red Suppliers LLC Logo"
               className="nav-img"
             />
-            </div>
+            </div> */}
             
           {/* </a> */}
         </div>
@@ -63,8 +63,19 @@ class NavBar extends React.Component {
         {/* https://redsuppliers.com */}
 
         <div className="nav"> 
+        <div className="wrap-both"> 
+        <div className="logo"> 
+        <img
+             src={logo}
+              alt="Red Suppliers LLC Logo"
+              className="nav-img"
+            />
+          </div>
+          <div className="link-bar">  
         <label for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle"/>  
+        <input type="checkbox" id="toggle"/> 
+        </div>  
+        </div> 
         <div className="wrap-link">
           <a
             href="http://localhost:3000/"
