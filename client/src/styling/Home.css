@@ -104,7 +104,7 @@ width: 85px;
 /* About us on homepage */
 
 .home-wrap-one {
-  background: green; 
+  /* background: green;  */
   display: inline; 
   display: flex; 
   flex-direction: row-reverse; 
@@ -112,7 +112,7 @@ width: 85px;
 }
 
 .home-wrap-two {
-  background: blue;
+  /* background: blue; */
   display: flex;  
   
 }
