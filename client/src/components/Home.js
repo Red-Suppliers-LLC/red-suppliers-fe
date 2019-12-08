@@ -2,14 +2,13 @@ import React from "react"
 import "../styling/Home.css"
 import "../styling/About.css"; 
 
-// import OurPartners from "./OurPartners.js"
 import NavBar from "./NavBar"
 import HomeImg from "../img/homepageimgtwo.png";  
 import Footer from "./Footer.js";
-// import AboutUs from "./AboutUs.js";  
 import Icons from "./Icons.js"; 
 
 const Home = () => {
+
   return (
     <div className="body">
       <div>
@@ -32,9 +31,8 @@ const Home = () => {
       </div>
 
       <div className="center">
-        <div className="button" type="submit"> Contact Us </div>
-
-        </div>  
+        <div className="button" type="submit" onClick={() => {}}> Contact Us </div>
+      </div>  
 
       <div className="spacing"> </div>
 
@@ -46,10 +44,6 @@ const Home = () => {
       <div className="center">
      
         <div className="spacing"> </div>
-
-
-
-
         <div className="side-by-side"> 
            <div className="services1"> 
                 <div> 
@@ -73,11 +67,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-
-
-
-
         <div> 
             {/* <AboutUs /> */}
         </div> 
