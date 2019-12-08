@@ -78,13 +78,13 @@ class NavBar extends React.Component {
         <input type="checkbox" id="toggle"/> 
         <div className="wrap-link">
           <a
-            href="http://localhost:3000/"
+            href="https://redsuppliers.com/"
             className="link"
           >
             HOME
           </a>
           <a
-            href="http://localhost:3000/about"
+            href="https://redsuppliers.com/about"
             className="link"
           >
             ABOUT
