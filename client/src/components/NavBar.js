@@ -84,13 +84,13 @@ class NavBar extends React.Component {
             HOME
           </a>
           <a
-            href="http://localhost:3000 /about"
+            href="https://redsuppliers.com/about"
             className="link"
           >
             ABOUT
           </a>
           <a
-            href="http://localhost:3000 /services"
+            href="https://redsuppliers.com/services"
             className="link"
           >
             SERVICES
