@@ -46,6 +46,10 @@ const Home = () => {
       <div className="center">
      
         <div className="spacing"> </div>
+
+
+
+
         <div className="side-by-side"> 
            <div className="services1"> 
                 <div> 
@@ -53,22 +57,27 @@ const Home = () => {
                <div className="center">    
                     <h3 className="title-font"> Benefits </h3> 
                 </div>
-                <div className="benefits">
-                    <p className="div1"> Through providing medical supplies we noticed that some buyers look for a few key things such as quality, efficiency, and low cost. In order to maintain consistency and quality we associate ourselves with other professionals to satisfy each and everyone of those criterias. One of our aims is to build a long term relationship of customer satisfaction. </p>   
+                <div className="center-width">
+                    <p className="font-size"> Through providing medical supplies we noticed that some buyers look for a few key things such as quality, efficiency, and low cost. In order to maintain consistency and quality we associate ourselves with other professionals to satisfy each and everyone of those criterias. One of our aims is to build a long term relationship of customer satisfaction. </p>   
                 </div>  
                </div>
             </div> 
             <div className="spacing"> </div> 
             <div className="services2">  
                <img className="med-img" src="https://2001-2009.state.gov/cms_images/030405_med_supplies.jpg" /> 
-               <div className="center">    
+               <div className="wrapper">    
                     <h3 className="title-font"> Medical Supplies </h3> 
                 </div> 
-               <div className="supplies"> 
-                <p className="div1"> The list of products we supply can range from Basic First Aid to even OSHA, Pets, Coast Guard, Swimming First Aids and many more. We are constantly updating our inventory to satisfy our buyers. Contact us to see how we can provide what you may need. </p>
+               <div className="center-width"> 
+                <p className="font-size"> The list of products we supply can range from Basic First Aid to even OSHA, Pets, Coast Guard, Swimming First Aids and many more. We are constantly updating our inventory to satisfy our buyers. Contact us to see how we can provide what you may need. </p>
             </div>
           </div>
         </div>
+
+
+
+
+
         <div> 
             {/* <AboutUs /> */}
         </div> 
