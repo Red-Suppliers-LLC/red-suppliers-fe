@@ -157,6 +157,7 @@ width: 85px;
   }
 
   .side-by-side {
+    overflow-x: hidden !important;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -164,13 +165,13 @@ width: 85px;
   }
 
   .font-size {
-    font-size: 22px; 
+    /* font-size: 22px; 
     line-height: 40px;
-    text-align: center; 
+    text-align: center;  */
   }
 
   .div1 {
-    width: 400px; 
+    width: 1000px; 
     height: auto;
     line-height: 40px; 
     font-size: 22px; 
@@ -183,12 +184,48 @@ width: 85px;
   }
   
   .benefits {
-    width: 490px;
+    width: 400px; 
     height: auto;
-    line-height: 30px; 
+    line-height: 40px; 
+    font-size: 22px; 
+    line-height: 40px; 
+    text-align: center; 
+    background: blue; 
+  }
+
+  .supplies {
+    width: 400px; 
+    height: auto;
+    line-height: 40px; 
+    font-size: 22px; 
+    line-height: 40px; 
+    text-align: center;
+    background: green;  
+  }
+
+  .services1 {
+    /* width: 100px; 
+    height: auto;
+    font-size: 22px; 
+    line-height: 40px; 
+    text-align: center;  */
+  }
+
+  .handshake-img {
+    width: 100%; 
+    height: auto;
+  }
+
+  .med-img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  /* .services1 {
     display: flex; 
     justify-content: center; 
-   
-  }
+    background: purple; 
+} */
+
 }
 

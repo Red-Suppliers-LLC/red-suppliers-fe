@@ -54,7 +54,7 @@ const Home = () => {
                     <h3 className="title-font"> Benefits </h3> 
                 </div>
                 <div className="benefits">
-                    <p className="font-size"> Through providing medical supplies we noticed that some buyers look for a few key things such as quality, efficiency, and low cost. In order to maintain consistency and quality we associate ourselves with other professionals to satisfy each and everyone of those criterias. One of our aims is to build a long term relationship of customer satisfaction. </p>    
+                    <p className="div1"> Through providing medical supplies we noticed that some buyers look for a few key things such as quality, efficiency, and low cost. In order to maintain consistency and quality we associate ourselves with other professionals to satisfy each and everyone of those criterias. One of our aims is to build a long term relationship of customer satisfaction. </p>   
                 </div>  
                </div>
             </div> 
@@ -65,7 +65,7 @@ const Home = () => {
                     <h3 className="title-font"> Medical Supplies </h3> 
                 </div> 
                <div className="supplies"> 
-                <p className="font-size"> The list of products we supply can range from Basic First Aid to even OSHA, Pets, Coast Guard, Swimming First Aids and many more. We are constantly updating our inventory to satisfy our buyers. Contact us to see how we can provide what you may need. </p>
+                <p className="div1"> The list of products we supply can range from Basic First Aid to even OSHA, Pets, Coast Guard, Swimming First Aids and many more. We are constantly updating our inventory to satisfy our buyers. Contact us to see how we can provide what you may need. </p>
             </div>
           </div>
         </div>
