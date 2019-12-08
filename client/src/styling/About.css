@@ -97,19 +97,19 @@
   }
 
   .body-one {
+    overflow-x: hidden !important;
     width: 450px;
     height: auto; 
     display: inline-block; 
     font-size: 20px; 
-    margin-left: 20px; 
-    margin-right: 20px; 
-    /* margin: 50px 5px;  */
+    margin: 50px 5px;  
     border-radius: 10px;
     box-shadow: 8px 8px 6px -6px lightgray;
     display: flex;
     flex-direction: column;
     line-height: 33px;
     text-align: center; 
+    background: blue;
   }
 
   .visionimg {
