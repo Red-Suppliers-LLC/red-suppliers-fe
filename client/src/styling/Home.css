@@ -131,17 +131,17 @@ width: 85px;
   }
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .body {
     overflow-x: hidden !important;
   }
-}
+} */
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .body {
     overflow-x: hidden !important;
   }
-}
+} */
 
 @media (max-width: 500px) {
 
@@ -157,7 +157,8 @@ width: 85px;
   }
 
   .side-by-side {
-    overflow-x: hidden !important;
+    width: 200px; 
+    /* overflow-x: hidden !important; */
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -165,9 +166,10 @@ width: 85px;
   }
 
   .font-size {
-    /* font-size: 22px; 
-    line-height: 40px;
-    text-align: center;  */
+    font-size: 22px; 
+    line-height: 35px;
+    text-align: center; 
+    width: 300px; 
   }
 
   .div1 {
@@ -180,7 +182,8 @@ width: 85px;
   }
 
   .title-font {
-    font-size: 25px; 
+    font-size: 23px;
+    text-decoration-line: underline;  
   }
   
   .benefits {
@@ -203,14 +206,6 @@ width: 85px;
     background: green;  
   }
 
-  .services1 {
-    /* width: 100px; 
-    height: auto;
-    font-size: 22px; 
-    line-height: 40px; 
-    text-align: center;  */
-  }
-
   .handshake-img {
     width: 100%; 
     height: auto;
@@ -221,11 +216,16 @@ width: 85px;
     height: auto; 
   }
 
-  /* .services1 {
+  .wrapper {
+    overflow: scroll; 
+    display: flex; 
+    justify-content: center;
+  }
+
+  .center-width {
     display: flex; 
     justify-content: center; 
-    background: purple; 
-} */
+  }
 
 }
 
