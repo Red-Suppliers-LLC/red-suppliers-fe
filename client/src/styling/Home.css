@@ -3,20 +3,37 @@
 }
 
 .home-img {
-  width: 100%;
+  width: 100% !important;
   height: auto;
 }
+/* @media (max-width: 500px) {
+  .home-img {
+    margin-top: -32px;
+  }
+} */
+.home-img-div {
+  width: 100%;
+  /* background-image: url("../img/homeimg.png");
+  height: 90vh; */
+  /* background-position: cover;*/
+}
+
+/* @media (max-width: 500px) {
+  .home-img-test {
+    width: 25%;
+  }
+} */
 
 h1 {
-    font-size: 50px; 
-    display: flex;
-    justify-content: center; 
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .button {
-background-color: red; /* Green */
-border-radius: 20px;
-width: 85px; 
+  background-color: red; /* Green */
+  border-radius: 20px;
+  width: 85px;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -26,64 +43,64 @@ width: 85px;
 }
 
 .div1 {
-  width: 70%; 
+  width: 70%;
   height: 70%;
-  line-height: 40px; 
-  font-size: 19px; 
-  line-height: 30px; 
-  text-align: center; 
+  line-height: 40px;
+  font-size: 19px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .center {
-  display: flex; 
-  justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
 
 .handshake-img {
-  width: 500px; 
-  height: auto; 
+  width: 500px;
+  height: auto;
 }
 
 .med-img {
-  width: 500px; 
-  height: auto; 
+  width: 500px;
+  height: auto;
 }
 
 .spacing {
-  padding: 50px; 
+  padding: 50px;
 }
 
 .side-by-side {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .services1 {
-    display: flex; 
-    justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
 
 .benefits {
   width: 500px;
   height: auto;
-  line-height: 30px; 
-  display: flex; 
-  justify-content: center; 
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
 }
 
 .supplies {
   width: 500px;
   height: auto;
-  line-height: 30px; 
-  display: flex; 
-  justify-content: center; 
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
 }
 
-.services-title { 
-  font-size: 20px; 
-  display: flex; 
-  justify-content: center; 
+.services-title {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .bit-spacing {
@@ -91,34 +108,31 @@ width: 85px;
 }
 
 .copy {
-  margin: 10px;  
-  display: flex; 
-  justify-content: center;  
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .font-size {
-  font-size: 17px; 
-  line-height: 30px; 
+  font-size: 17px;
+  line-height: 30px;
 }
 
 /* About us on homepage */
 
 .home-wrap-one {
   /* background: green;  */
-  display: inline; 
-  display: flex; 
-  flex-direction: row-reverse; 
-  
+  display: inline;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .home-wrap-two {
   /* background: blue; */
-  display: flex;  
-  
+  display: flex;
 }
 
 /* Media query's for home component */
-
 
 @media (max-width: 2656px) {
   .body {
@@ -144,88 +158,85 @@ width: 85px;
 } */
 
 @media (max-width: 500px) {
-
   .body {
     overflow-x: hidden !important;
-}
+  }
 
   .home-img {
     width: 100px;
     height: auto;
-    left:50%;
+    left: 50%;
     /* display: none;  */
   }
 
   .side-by-side {
-    width: 200px; 
+    width: 200px;
     /* overflow-x: hidden !important; */
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
+    flex-direction: column;
+    justify-content: center;
     flex-direction: column-reverse;
   }
 
   .font-size {
-    font-size: 22px; 
+    font-size: 22px;
     line-height: 35px;
-    text-align: center; 
-    width: 300px; 
+    text-align: center;
+    width: 300px;
   }
 
   .div1 {
-    width: 1000px; 
+    width: 1000px;
     height: auto;
-    line-height: 40px; 
-    font-size: 22px; 
-    line-height: 40px; 
-    text-align: center; 
+    line-height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
   }
 
   .title-font {
     font-size: 23px;
-    text-decoration-line: underline;  
+    text-decoration-line: underline;
   }
-  
+
   .benefits {
-    width: 400px; 
+    width: 400px;
     height: auto;
-    line-height: 40px; 
-    font-size: 22px; 
-    line-height: 40px; 
-    text-align: center; 
-    background: blue; 
+    line-height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    background: blue;
   }
 
   .supplies {
-    width: 400px; 
+    width: 400px;
     height: auto;
-    line-height: 40px; 
-    font-size: 22px; 
-    line-height: 40px; 
+    line-height: 40px;
+    font-size: 22px;
+    line-height: 40px;
     text-align: center;
-    background: green;  
+    background: green;
   }
 
   .handshake-img {
-    width: 100%; 
+    width: 100%;
     height: auto;
   }
 
   .med-img {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
   }
 
   .wrapper {
-    overflow: scroll; 
-    display: flex; 
+    overflow: scroll;
+    display: flex;
     justify-content: center;
   }
 
   .center-width {
-    display: flex; 
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
   }
-
 }
-
