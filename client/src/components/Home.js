@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 import "../styling/Home.css"
 import "../styling/About.css"
 
@@ -6,8 +6,13 @@ import NavBar from "./NavBar"
 import HomeImg from "../img/homepageimgtwo.png"
 import Footer from "./Footer.js"
 import Icons from "./Icons.js"
+// import Contact from "./components/Contact.js"
+
+// import { BrowserRouter as Router, Route } from "react-router-dom"
+
 
 const Home = () => {
+
   return (
     <div className="body">
       <div>
@@ -30,9 +35,11 @@ const Home = () => {
       </div>
 
       <div className="center">
-        <div className="button" type="submit" onClick={() => {}}>
+        <div className="button" type="submit">
+        <a href="http://localhost:3001/contact">  
           {" "}
           Contact Us{" "}
+          </a> 
         </div>
       </div>
 
