@@ -166,7 +166,7 @@ h1 {
     width: 100px;
     height: auto;
     left: 50%;
-    /* display: none;  */
+    display: none; 
   }
 
   .side-by-side {
