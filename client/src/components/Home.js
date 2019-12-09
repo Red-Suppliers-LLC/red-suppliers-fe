@@ -36,7 +36,7 @@ const Home = () => {
 
       <div className="center">
         <div className="button" type="submit">
-        <a href="http://localhost:3001/contact">  
+        <a href="https://redsuppliers.com/contact">  
           {" "}
           Contact Us{" "}
           </a> 
