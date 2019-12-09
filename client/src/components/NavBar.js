@@ -32,38 +32,15 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="wrap-navbar">
-        <div>
-          {/* <a
-            href="http://localhost:3000/"
-          > */}
-          {/* <div className="flex-img"> 
-            <img
-              src={logo}
-              alt="Red Suppliers LLC Logo"
-              className="nav-img"
-            />
-            </div> */}
-            
-          {/* </a> */}
-        </div>
-
-        <div className="name"> 
-        <div> 
-            <h3> Red Suppliers LLC </h3> 
-            </div> 
-        </div> 
-        
-            {/* <form onSubmit="handleSubmit"> 
-            <label> &#9776; </label>
-            <input type="checkbox" onChange="handleChange"/>  
-           </form> */}
 
         {/* http://localhost:3000 */}
 
         {/* https://redsuppliers.com */}
 
         <div className="nav"> 
+        {/* <div className="wrap-nav-link">  */}
         <div className="wrap-both"> 
+        {/* <div className="wrap-img-link">  */}
         <div className="logo"> 
         <img
              src={logo}
@@ -77,6 +54,7 @@ class NavBar extends React.Component {
         </div> 
         <input type="checkbox" id="toggle"/> 
         <div className="wrap-link">
+    
           <a
             href="https://redsuppliers.com/"
             className="link"
@@ -102,6 +80,7 @@ class NavBar extends React.Component {
             CONTACT US
           </a>
         </div>
+        {/* </div>  */}
         </div>
       </div>
     )

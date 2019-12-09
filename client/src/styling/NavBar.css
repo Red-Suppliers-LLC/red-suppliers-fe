@@ -4,10 +4,10 @@
 }
 
 .wrap-link {
-  text-align: end;
-  margin-left: px;
+  width: 100%; 
   display: flex;
   justify-content: flex-end;
+  justify-content: space-around; 
 }
 
 .link {
@@ -44,9 +44,12 @@ label {
   margin-left: 155px;
 }
 
-.wrap-both {
-  display: none;
-}
+ /* .wrap-nav-link {
+   display: none; 
+  display: flex; 
+}  */
+
+
 
 @media (max-width: 1000px) {
 }
@@ -126,5 +129,11 @@ label {
     border-radius: 50px;
     margin-left: 20px;
     margin-right: 17px;
+  }
+
+  .wrap-nav-link {
+    display: none;
+    display: flex;
+    justify-content: center;
   }
 }

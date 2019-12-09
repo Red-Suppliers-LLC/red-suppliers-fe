@@ -6,9 +6,6 @@ import NavBar from "./NavBar"
 import HomeImg from "../img/homepageimgtwo.png"
 import Footer from "./Footer.js"
 import Icons from "./Icons.js"
-// import Contact from "./components/Contact.js"
-
-// import { BrowserRouter as Router, Route } from "react-router-dom"
 
 
 const Home = () => {
