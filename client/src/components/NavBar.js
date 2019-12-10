@@ -1,6 +1,7 @@
 import React from "react"
-import logo from "../img/PharmacyLogo.PNG"
+import logo from "../img/logo.png"
 import "../styling/NavBar.css"; 
+
 
 class NavBar extends React.Component {
   // Make backend database to allow toggle below 

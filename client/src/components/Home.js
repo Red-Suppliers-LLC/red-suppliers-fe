@@ -19,6 +19,9 @@ const Home = () => {
       <div className="home-img-div">
         <img className="home-img" src={HomeImg} alt="home" />
       </div>
+
+    <div className="more-more-space"> </div>
+
       <Icons />
       <div>
         <h1> Red Suppliers </h1>
