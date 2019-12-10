@@ -56,7 +56,7 @@ class NavBar extends React.Component {
         <div className="wrap-link">
     
           <a
-            href="http://localhost:3000/"
+            href="https://redsuppliers.com/"
             className="link"
           >
             HOME
