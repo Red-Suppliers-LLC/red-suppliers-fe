@@ -7,6 +7,7 @@ import HomeImg from "../img/homepageimgtwo.png"
 import Footer from "./Footer.js"
 import Icons from "./Icons.js"
 
+import Benefits from "../img/benefits.png"; 
 
 const Home = () => {
 
@@ -53,7 +54,7 @@ const Home = () => {
             <div>
               <img
                 className="handshake-img"
-                src="https://www.maxpixel.net/static/photo/1x/Hands-Welcome-Handshake-Shaking-Hands-Agreement-3091908.jpg"
+                src={Benefits}
               />
               <div className="center">
                 <h3 className="title-font"> Benefits </h3>

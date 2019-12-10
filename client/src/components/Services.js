@@ -2,8 +2,9 @@ import React from "react";
 import Navbar from "./NavBar.js"; 
 import Footer from "./Footer.js"; 
 import "../styling/About.css"; 
-
 import "../styling/Home.css"; 
+
+import Benefits from "../img/benefits.png"; 
 
 const Services = () => {
 
@@ -25,12 +26,10 @@ const Services = () => {
           <div className="spacing"> </div>
   
   
-  
-  
           <div className="side-by-side"> 
              <div className="services1"> 
                   <div> 
-                 <img className="handshake-img" src="https://www.maxpixel.net/static/photo/1x/Hands-Welcome-Handshake-Shaking-Hands-Agreement-3091908.jpg"/> 
+                 <img className="handshake-img" src={Benefits}/> 
                  <div className="center">    
                       <h3 className="title-font"> Benefits </h3> 
                   </div>
