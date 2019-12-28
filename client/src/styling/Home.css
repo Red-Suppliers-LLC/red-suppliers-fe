@@ -31,7 +31,9 @@ h1 {
 }
 
 .button {
-  background-color: red; /* Green */
+  background-color: #f44336; /*what i would put*/
+  /* background-color: #ed1c24; my 2nd choice if you want it to pop more */
+  /* background-color: red -- what you had */
   border-radius: 20px;
   width: 85px;
   border: none;
