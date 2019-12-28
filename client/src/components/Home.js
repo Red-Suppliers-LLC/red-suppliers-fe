@@ -7,10 +7,9 @@ import HomeImg from "../img/homepageimgtwo.png"
 import Footer from "./Footer.js"
 import Icons from "./Icons.js"
 
-import Benefits from "../img/benefits.png"; 
+import Benefits from "../img/benefits.png"
 
 const Home = () => {
-
   return (
     <div className="body">
       <div>
@@ -20,7 +19,7 @@ const Home = () => {
         <img className="home-img" src={HomeImg} alt="home" />
       </div>
 
-    <div className="more-more-space"> </div>
+      <div className="more-more-space"> </div>
 
       <Icons />
       <div>
@@ -37,9 +36,9 @@ const Home = () => {
 
       <div className="center">
         <div className="button" type="submit">
-        <a className="button-link" href="https://redsuppliers.com/contact">  
-          Contact Us
-          </a> 
+          <a className="button-link" href="https://redsuppliers.com/contact">
+            Contact Us
+          </a>
         </div>
       </div>
 
@@ -55,10 +54,7 @@ const Home = () => {
         <div className="side-by-side">
           <div className="services1">
             <div>
-              <img
-                className="handshake-img"
-                src={Benefits}
-              />
+              <img className="handshake-img" src={Benefits} />
               <div className="center">
                 <h3 className="title-font"> Benefits </h3>
               </div>
