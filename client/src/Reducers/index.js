@@ -1,6 +1,3 @@
-import { combineReducers } from "../../node_modules/redux";
+import { combineReducers } from "redux"
 
-
-export default combineReducers({
-  
-})
+export default combineReducers({})
