@@ -7,10 +7,9 @@ import HomeImg from "../img/homepageimgtwo.png"
 import Footer from "./Footer.js"
 import Icons from "./Icons.js"
 
-import Benefits from "../img/benefits.png"; 
+import Benefits from "../img/benefits.png"
 
 const Home = () => {
-
   return (
     <div className="body">
       <div>
@@ -20,7 +19,7 @@ const Home = () => {
         <img className="home-img" src={HomeImg} alt="home" />
       </div>
 
-    <div className="more-more-space"> </div>
+      <div className="more-more-space"> </div>
 
       <Icons />
       <div>
@@ -37,16 +36,14 @@ const Home = () => {
 
       <div className="center">
         <div className="button" type="submit">
-        <a className="button-link" href="https://redsuppliers.com/contact">  
-          Contact Us
-          </a> 
+          <a className="button-link" href="https://redsuppliers.com/contact">
+            Contact Us
+          </a>
         </div>
       </div>
 
-      <div className="spacing"> </div>
-
       <div className="services-title">
-        <h2> Our Services </h2>
+        <h2>The Services We Offer</h2>
       </div>
 
       <div className="bit-spacing"> </div>
@@ -55,16 +52,12 @@ const Home = () => {
         <div className="side-by-side">
           <div className="services1">
             <div>
-              <img
-                className="handshake-img"
-                src={Benefits}
-              />
+              <img className="handshake-img" src={Benefits} />
               <div className="center">
                 <h3 className="title-font"> Benefits </h3>
               </div>
               <div className="center-width">
-                <p className="font-size">
-                  {" "}
+                <p className="font-size2">
                   Through providing medical supplies we noticed that some buyers
                   look for a few key things such as quality, efficiency, and low
                   cost. In order to maintain consistency and quality we
@@ -75,14 +68,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="spacing"> </div>
           <div className="services2">
             <img
               className="med-img"
               src="https://2001-2009.state.gov/cms_images/030405_med_supplies.jpg"
             />
             <div className="wrapper">
-              <h3 className="title-font"> Medical Supplies </h3>
+              <h3 className="title-font2"> Medical Supplies </h3>
             </div>
             <div className="center-width">
               <p className="font-size">
@@ -95,17 +87,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>{/* <AboutUs /> */}</div>
-        <div className="spacing"> </div>
       </div>
-      {/* our partners component */}
-      <div className="spacing"> </div>
       <div>
-        {/* <OurPartners /> */}
-        <div className="spacing"> </div>
-        <div className="copy">
-          <Footer />
-        </div>
+        <Footer />
       </div>
     </div>
   )

@@ -1,5 +1,14 @@
-.copy {
-    margin: 10px;  
-    display: flex; 
-    justify-content: center;  
-  }
+.parentDiv {
+  display: flex;
+  margin: 150px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.outerDiv {
+  justify-content: center;
+}
+
+.copyrightText {
+  font-size: 12px;
+}
