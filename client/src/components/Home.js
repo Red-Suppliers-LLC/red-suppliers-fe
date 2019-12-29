@@ -43,7 +43,6 @@ const Home = () => {
       </div>
 
       <div className="services-title">
-        {/* <h2> Our Services </h2> */}
         <h2>The Services We Offer</h2>
       </div>
 
@@ -58,8 +57,7 @@ const Home = () => {
                 <h3 className="title-font"> Benefits </h3>
               </div>
               <div className="center-width">
-                <p className="font-size">
-                  {" "}
+                <p className="font-size2">
                   Through providing medical supplies we noticed that some buyers
                   look for a few key things such as quality, efficiency, and low
                   cost. In order to maintain consistency and quality we
@@ -70,14 +68,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="spacing"> </div>
           <div className="services2">
             <img
               className="med-img"
               src="https://2001-2009.state.gov/cms_images/030405_med_supplies.jpg"
             />
             <div className="wrapper">
-              <h3 className="title-font"> Medical Supplies </h3>
+              <h3 className="title-font2"> Medical Supplies </h3>
             </div>
             <div className="center-width">
               <p className="font-size">
@@ -90,17 +87,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>{/* <AboutUs /> */}</div>
-        <div className="spacing"> </div>
       </div>
-      {/* our partners component */}
-      <div className="spacing"> </div>
       <div>
-        {/* <OurPartners /> */}
-        <div className="spacing"> </div>
-        <div className="copy">
-          <Footer />
-        </div>
+        <Footer />
       </div>
     </div>
   )
