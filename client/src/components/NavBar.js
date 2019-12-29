@@ -33,23 +33,16 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className="wrap-navbar">
-        {/* http://localhost:3000 */}
-
         {/* https://redsuppliers.com */}
 
         <div className="nav">
-          {/* <div className="wrap-nav-link">  */}
           <div className="wrap-both">
-            {/* <div className="wrap-img-link">  */}
             <div className="logo">
               <img
                 className="nav-img"
                 src={logo}
                 alt="Red Suppliers LLC Logo"
               />
-              <div className="link-bar">
-                <label for="toggle">&#9776;</label>
-              </div>
 
               <input type="checkbox" id="toggle" />
               <div className="wrap-link">
