@@ -32,7 +32,9 @@ h1 {
 
 .button {
   background-color: #f44336; /*what i would put*/
+
   /* background-color: #ed1c24; my 2nd choice if you want it to pop more */
+
   /* background-color: red -- what you had */
   border-radius: 20px;
   width: 85px;
@@ -42,6 +44,7 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-bottom: 80px;
 }
 
 .button-link {
@@ -72,10 +75,6 @@ h1 {
 .med-img {
   width: 500px;
   height: auto;
-}
-
-.spacing {
-  padding: 50px;
 }
 
 .side-by-side {

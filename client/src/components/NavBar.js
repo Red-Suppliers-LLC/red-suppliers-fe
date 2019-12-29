@@ -29,6 +29,7 @@ class NavBar extends React.Component {
   //  })
   // }
   // Make backend database to allow toggle above
+
   render() {
     return (
       <div className="wrap-navbar">

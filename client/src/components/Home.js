@@ -42,10 +42,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="spacing"> </div>
-
       <div className="services-title">
-        <h2> Our Services </h2>
+        {/* <h2> Our Services </h2> */}
+        <h2>The Services We Offer</h2>
       </div>
 
       <div className="bit-spacing"> </div>
