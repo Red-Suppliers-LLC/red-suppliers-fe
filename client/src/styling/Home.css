@@ -128,14 +128,12 @@ h1 {
 /* About us on homepage */
 
 .home-wrap-one {
-  /* background: green;  */
   display: inline;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .home-wrap-two {
-  /* background: blue; */
   display: flex;
 }
 
@@ -179,14 +177,12 @@ h1 {
 
   .home-img {
     width: 100%;
-    /* height: auto; */
     left: 50%;
     display: none;
   }
 
   .side-by-side {
     width: 200px;
-    /* overflow-x: hidden !important; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,7 +217,6 @@ h1 {
     font-size: 22px;
     line-height: 40px;
     text-align: center;
-    background: blue;
   }
 
   .supplies {
@@ -231,7 +226,6 @@ h1 {
     font-size: 22px;
     line-height: 40px;
     text-align: center;
-    background: green;
   }
 
   .handshake-img {
