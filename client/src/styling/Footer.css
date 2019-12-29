@@ -12,3 +12,9 @@
 .copyrightText {
   font-size: 12px;
 }
+
+.copy {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}

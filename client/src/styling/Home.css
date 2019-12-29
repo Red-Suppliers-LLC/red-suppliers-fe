@@ -31,11 +31,14 @@ h1 {
 }
 
 .button {
-  background-color: #f44336; /*what i would put*/
+  display: flex;
+  justify-content: center;
+}
 
-  /* background-color: #ed1c24; my 2nd choice if you want it to pop more */
-
-  /* background-color: red -- what you had */
+.button-link {
+  color: black;
+  text-decoration: none;
+  background-color: #f44336;
   border-radius: 20px;
   width: 85px;
   border: none;
@@ -45,11 +48,6 @@ h1 {
   display: inline-block;
   font-size: 16px;
   margin-bottom: 80px;
-}
-
-.button-link {
-  color: black;
-  text-decoration: none;
 }
 
 .div1 {
@@ -79,15 +77,17 @@ h1 {
 
 .side-by-side {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
+  flex-direction: row-reverse;
 }
 
 .services1 {
   display: flex;
   justify-content: center;
 }
-
+.services2 {
+  margin-left: 7.5%;
+}
 .benefits {
   width: 500px;
   height: auto;
@@ -112,12 +112,6 @@ h1 {
 
 .bit-spacing {
   margin: 20px;
-}
-
-.copy {
-  margin: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 .font-size {

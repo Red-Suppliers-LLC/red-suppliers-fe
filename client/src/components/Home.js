@@ -34,38 +34,29 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="center">
-        <div className="button" type="submit">
-          <a className="button-link" href="https://redsuppliers.com/contact">
-            Contact Us
-          </a>
-        </div>
+      <div className="button" type="submit">
+        <a className="button-link" href="https://redsuppliers.com/contact">
+          Contact Us
+        </a>
       </div>
 
       <div className="services-title">
         <h2>The Services We Offer</h2>
       </div>
-
-      <div className="bit-spacing"> </div>
       <div className="center">
-        <div className="spacing"> </div>
         <div className="side-by-side">
           <div className="services1">
             <div>
               <img className="handshake-img" src={Benefits} />
-              <div className="center">
-                <h3 className="title-font"> Benefits </h3>
-              </div>
-              <div className="center-width">
-                <p className="font-size2">
-                  Through providing medical supplies we noticed that some buyers
-                  look for a few key things such as quality, efficiency, and low
-                  cost. In order to maintain consistency and quality we
-                  associate ourselves with other professionals to satisfy each
-                  and everyone of those criterias. One of our aims is to build a
-                  long term relationship of customer satisfaction.{" "}
-                </p>
-              </div>
+              <h3 className="title-font"> Benefits </h3>
+              <p className="font-size2">
+                Through providing medical supplies we noticed that some buyers
+                look for a few key things such as quality, efficiency, and low
+                cost. In order to maintain consistency and quality we associate
+                ourselves with other professionals to satisfy each and everyone
+                of those criterias. One of our aims is to build a long term
+                relationship of customer satisfaction.{" "}
+              </p>
             </div>
           </div>
           <div className="services2">
@@ -78,7 +69,6 @@ const Home = () => {
             </div>
             <div className="center-width">
               <p className="font-size">
-                {" "}
                 The list of products we supply can range from Basic First Aid to
                 even OSHA, Pets, Coast Guard, Swimming First Aids and many more.
                 We are constantly updating our inventory to satisfy our buyers.
