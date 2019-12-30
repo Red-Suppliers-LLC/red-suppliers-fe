@@ -1,8 +1,11 @@
-.logo {
-  display: flex;
-}
 .wrap-navbar {
   width: 100%;
+  display: flex;
+  margin-top: 10px;
+  /* position: fixed;  This will be a project when I have more time*/
+}
+
+.logo {
   display: flex;
 }
 
@@ -47,11 +50,6 @@ label {
   margin-left: 19%;
 }
 
-/* .wrap-nav-link {
-   display: none; 
-  display: flex; 
-}  */
-
 @media (max-width: 1000px) {
 }
 
@@ -60,7 +58,6 @@ label {
 
 @media (max-width: 500px) {
   .wrap-link {
-    /* margin-left: 10px; */
     display: none;
     text-align: center;
     width: 100%;
@@ -70,8 +67,6 @@ label {
     display: block;
     border-top: 1px solid #eaeaeb;
     padding-top: 5%;
-    /* margin-right: 20px;
-    line-height: 30px; */
     width: 100%;
   }
 
@@ -101,22 +96,12 @@ label {
     color: #000000;
     display: flex;
     justify-content: flex-start;
-    /* margin-left: 100px;  */
     background: blue;
     display: none;
   }
 
   .wrap-navbar {
     display: flex;
-    /* justify-content: space-between;   */
-  }
-
-  .logo {
-    /* background: blue;  */
-  }
-
-  .link-bar {
-    /* background: green;  */
   }
 
   .wrap-both {

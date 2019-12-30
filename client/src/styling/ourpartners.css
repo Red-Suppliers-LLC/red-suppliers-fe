@@ -3,37 +3,24 @@
 }
 
 .center {
-    display: flex; 
-    justify-content: center; 
-  }
+  display: flex;
+  justify-content: center;
+}
 
-  .space-between {
-      margin: 20px; 
-  }
+.space-between {
+  margin: 20px;
+}
 
-  .partner-one {
-    display: flex; 
-    
-  }
+.partner-one {
+  display: flex;
+}
 
-  .partner-two {
-   
-  }
+.set-one {
+  display: flex;
+  justify-content: space-around;
+}
 
-  .partner-three {
-    
-  }
-
-  .partner-four {
-    
-  }
-
-  .set-one {
-    display: flex;
-    justify-content: space-around; 
-  }
-
-  .set-two {
-    display: flex; 
-    justify-content: space-around; 
-  }
+.set-two {
+  display: flex;
+  justify-content: space-around;
+}

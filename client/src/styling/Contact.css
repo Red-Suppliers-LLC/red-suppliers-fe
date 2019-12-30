@@ -1,10 +1,9 @@
-.contact-container{
-  /* background: blue; */
+.contact-container {
   height: auto;
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
 }
-.Contact_Input{
+.Contact_Input {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -12,7 +11,7 @@
   justify-content: space-evenly;
   width: 500px;
 }
-.input{
+.input {
   border: solid black 1px;
   border-radius: 5px;
   font-size: 15px;
@@ -20,7 +19,7 @@
   margin: 10px auto;
   padding: 2px;
 }
-.send{
+.send {
   width: 100px;
-  margin:0 auto;
+  margin: 0 auto;
 }
