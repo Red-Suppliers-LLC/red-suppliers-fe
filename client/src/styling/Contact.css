@@ -37,22 +37,29 @@
 .input {
   border: solid black 1px;
   border-radius: 2px;
-  width: 50%;
-  padding: 2px;
+  /* padding: 2px; */
   height: 35px;
 }
 .input::placeholder {
   color: #8a8b8e;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 2px;
 }
 
 .textarea {
   border: solid black 1px;
   border-radius: 2px;
   font-size: 15px;
-  width: 50%;
-  height: 30%;
+  width: 500px;
+  height: 250px;
   padding: 2px;
+}
+
+.textarea::placeholder {
+  color: #8a8b8e;
+  font-size: 1.4rem;
 }
 
 .button-link1 {

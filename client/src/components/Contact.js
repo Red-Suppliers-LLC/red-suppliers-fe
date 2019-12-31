@@ -38,14 +38,12 @@ const Contact = () => {
             />
           </div>
           <div className="input-div">
-            <label className="label">
-              Message
-              <textarea
-                className="textarea"
-                name="message"
-                placeholder="Enter your message here."
-              ></textarea>
-            </label>
+            <label className="label">Message</label>
+            <textarea
+              className="textarea"
+              name="message"
+              placeholder="I would love to place an order."
+            ></textarea>
           </div>
           <div className="heading-container">
             <button className="button-link1" type="submit">
