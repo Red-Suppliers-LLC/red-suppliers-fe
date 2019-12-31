@@ -25,10 +25,10 @@ const Home = () => {
       </div>
       <div className="center">
         <p className="div1">
-          Red Suppliers specializes in fill the needs of government
+          Red Suppliers specializes in filling the need of government
           organizations by delivering needed products within the medical
           industry. Red Suppliers focuses on dental and portable aid supplies to
-          be delivered to the needed locations
+          be delivered to the needed locations.
         </p>
       </div>
 
