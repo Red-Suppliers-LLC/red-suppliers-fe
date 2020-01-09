@@ -48,12 +48,7 @@ const Home = () => {
               <img className="handshake-img" src={Benefits} />
               <h3 className="title-font"> Benefits </h3>
               <p className="font-size2">
-                Through providing medical supplies we noticed that some buyers
-                look for a few key things such as quality, efficiency, and low
-                cost. In order to maintain consistency and quality we associate
-                ourselves with other professionals to satisfy each and everyone
-                of those criterias. One of our aims is to build a long term
-                relationship of customer satisfaction.{" "}
+              When it comes to business the way we structure our services is by focusing on three key things: cost, communication, and commitment. We believe in a win-win mentality where the relationship we foster will not only be based on results but also the satisfaction of the work that is done.
               </p>
             </div>
           </div>
@@ -67,10 +62,7 @@ const Home = () => {
             </div>
             <div className="center-width">
               <p className="font-size">
-                The list of products we supply can range from Basic First Aid to
-                even OSHA, Pets, Coast Guard, Swimming First Aids and many more.
-                We are constantly updating our inventory to satisfy our buyers.
-                Contact us to see how we can provide what you may need.{" "}
+              The list of products we supply can range from Basic First Aid to even OSHA, Pets, Coast Guard, Swimming First Aids and many more. We are constantly updating our inventory to satisfy our buyers. Contact us to see how we can provide what you may need.
               </p>
             </div>
           </div>

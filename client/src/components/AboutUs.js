@@ -22,15 +22,7 @@ const AboutUs = () => {
             <div className="body-three">
               <h3 className="title"> Our Vision </h3>
               <p>
-                {" "}
-                At Red Suppliers LLC we strive to bring a personal and flexible
-                approach to our business and clients. Based on our knowledge, we
-                understand how to leverage time, tasks, and tough decisions. We
-                currently have strong relationships with multiple manufacturers
-                that can deliver at our immediate request. In order to provide
-                your sector with the best customer experience we make sure to
-                pay attention to the details and efficiently streamline the
-                process in order to maximize our outcome.{" "}
+              To become the leading U.S. supplier of Medical, Dental, and Hospital equipment to the growing Health sector.
               </p>
             </div>
           </div>
@@ -43,12 +35,9 @@ const AboutUs = () => {
             <div className="body-three">
               <h3 className="titleTwo"> About Us </h3>
               <p className="body-two-paragraph">
-                Red Suppliers specializes in filling the needs of government
-                organizations by delivering Supplies within the medical
-                industry. Red Suppliers mainly focuses on dental and portable
-                aid supplies to be delivered to local and national locations.Our
-                focus is to provide a qualitative service with government
-                organizations to ensure customer satisfaction.
+              Red Suppliers LLC has past experience in both web design and marketing. Now the two founders are looking to leverage their skills and use innovative technology to streamline their services.
+
+              At Red Suppliers LLC we strive to bring a personal and flexible approach to our business and clients. Based on our knowledge, we understand how to leverage time, tasks, and tough decisions. We currently have strong relationships with multiple manufacturers that can deliver  at our immediate request. In order to provide your sector with the best customer experience we make sure to pay attention to the details and efficiently streamline the process in order to maximize our outcome. 
               </p>
             </div>
           </div>

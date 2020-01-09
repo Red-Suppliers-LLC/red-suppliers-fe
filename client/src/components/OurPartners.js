@@ -37,4 +37,3 @@ const OurPartners = () => {
 
 export default OurPartners
 
-//for styling purposes you should try to import a fake image as a place holder since an img tag acts different than an H3 tag would.
