@@ -1,35 +1,10 @@
-import React from "react"
-import logo from "../img/logo.png"
-import "../styling/NavBar.css"
+import React from "react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/core";
+
+import logo from "../img/logo.png";
+import "../styling/NavBar.css";
 
 class NavBar extends React.Component {
-  // Make backend database to allow toggle below
-  // state = {
-  //   newtoggle: {
-  //     toggle: false
-  //   }
-  // }
-
-  // handleSubmit = event => {
-  //   event.preventDefault()
-  //   this.state.toggle(this.state)
-  //   this.setState({
-  //     newtoggle: {
-  //       toggle: false
-  //     }
-  //   })
-  // }
-
-  //  handleChange = event => {
-  //  this.setState({
-  //    newtoggle: {
-  //       ...this.state.toggle,
-  //       [event.target.name]: event.target.value
-  //    }
-  //  })
-  // }
-  // Make backend database to allow toggle above
-
   render() {
     return (
       <div className="wrap-navbar">
@@ -55,6 +30,7 @@ class NavBar extends React.Component {
                 <a href="https://redsuppliers.com/services" className="link">
                   SERVICES
                 </a>
+
                 <a href="https://redsuppliers.com/contact" className="link">
                   CONTACT US
                 </a>
@@ -63,8 +39,8 @@ class NavBar extends React.Component {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default NavBar
+export default NavBar;
