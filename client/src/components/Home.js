@@ -56,7 +56,7 @@ const Home = () => {
       </div>
       <div className="center">
         <div className="side-by-side">
-          <Box maxW="md" borderWidth="1px" rounded="lg" overflow="hidden">
+          <Box maxW="lg" borderWidth="1px" rounded="lg" overflow="hidden">
             <Image
               src={medicalSupplies.imageUrls}
               alt={medicalSupplies.imageAlt}
@@ -85,11 +85,20 @@ const Home = () => {
               >
                 {medicalSupplies.range}
               </Box>
+              <Box color="black" letterSpacing="wide" fontSize="s" ml="2">
+                <p>
+                  The list of products we supply can range from Basic First Aid
+                  to even OSHA, Pets, Coast Guard, Swimming First Aids and many
+                  more. We are constantly updating our inventory to satisfy our
+                  buyers. Contact us to see how we can provide what you may
+                  need.
+                </p>
+              </Box>
             </Box>
           </Box>
           <div className="create-space"> </div>
           {/* Our serverse benfits */}
-          <Box maxW="md" borderWidth="1px" rounded="lg" overflow="hidden">
+          <Box maxW="lg" borderWidth="1px" rounded="lg" overflow="hidden">
             <Image src={benefits.imageUrls} alt={benefits.imageAlt} />
 
             <Box p="6">
@@ -104,7 +113,6 @@ const Home = () => {
                   {benefits.title}
                 </Box>
               </Box>
-
               <Box
                 color="gray.500"
                 fontWeight="semibold"
@@ -114,6 +122,15 @@ const Home = () => {
                 ml="2"
               >
                 {benefits.range}
+              </Box>
+              <Box color="black" letterSpacing="wide" fontSize="s" ml="2">
+                <p>
+                  When it comes to business the way we structure our services is
+                  by focusing on three key things: cost, communication, and
+                  commitment. We believe in a win-win mentality where the
+                  relationship we foster will not only be based on results but
+                  also the satisfaction of the work that is done.
+                </p>
               </Box>
             </Box>
           </Box>
@@ -127,34 +144,3 @@ const Home = () => {
 };
 
 export default Home;
-
-// <div className="services1">
-// <div>
-//   <img className="handshake-img" src={Benefits} />
-//   <h3 className="title-font"> Benefits </h3>
-//   <p className="font-size2">
-//     When it comes to business the way we structure our services is
-//     by focusing on three key things: cost, communication, and
-//     commitment. We believe in a win-win mentality where the
-//     relationship we foster will not only be based on results but
-//     also the satisfaction of the work that is done.
-//   </p>
-// </div>
-// </div>
-// <div className="services2">
-// <img
-//   className="med-img"
-//   src="https://2001-2009.state.gov/cms_images/030405_med_supplies.jpg"
-// />
-// <div className="wrapper">
-//   <h3 className="title-font2"> Medical Supplies </h3>
-// </div>
-// <div className="center-width">
-//   <p className="font-size">
-//     The list of products we supply can range from Basic First Aid to
-//     even OSHA, Pets, Coast Guard, Swimming First Aids and many more.
-//     We are constantly updating our inventory to satisfy our buyers.
-//     Contact us to see how we can provide what you may need.
-//   </p>
-// </div>
-// </div>
